@@ -25,7 +25,20 @@ struct RootsCalculatorView: View {
     // 1. Discriminant is negative, no real roots
     // 2. Discriminant is zero, so two equal real roots
     // 3. Discriminant is positive so two different real roots
-    var result: String {}
+    var result: String {
+        
+        let discriminant = b * b - 4 * a * c
+        
+        //check for negative descriminant (meaning no solutions)
+        if discriminant < 0 {
+           return "no real roots."
+        } else {
+            let x1 = ( b * -1 - discriminant.squareRoot() ) / (2 * a)
+            let x2 = ( b * -1 + discriminant.squareRoot() ) / (2 * a)
+            
+            return "x ≈ \(x1.formatted(.number.precision(.fractionLength(2)))) and x ≈ \(x2.formatted(.number.precision(.fractionLength(2))))"
+        }
+    }
     
     // The usser interface
     var body: some View {

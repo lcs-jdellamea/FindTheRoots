@@ -17,7 +17,18 @@ struct ResultView: View {
         VStack(spacing: 10) {
             
             // Input values
-            HStack(spacing: 30) {}
+            HStack(spacing: 30) {
+                
+                
+                
+                
+                
+                
+                
+                
+
+                
+            }
             
             // Output
             Text(somePriorResult.roots)
@@ -31,6 +42,6 @@ struct ResultView: View {
 
 struct ResultView_Previews: PreviewProvider {
     static var previews: some View {
-        ResultView(somePriorResult: resultForPreview)
+        ResultView(somePriorResult: resultForPreviews)
     }
 }

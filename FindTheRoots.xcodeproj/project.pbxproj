@@ -58,6 +58,7 @@
 				6F453973298020FA000F47C9 /* FindTheRootsApp.swift */,
 				6F453984298023B7000F47C9 /* Model */,
 				6F453981298021C8000F47C9 /* Views */,
+				6F453979298020FB000F47C9 /* Preview Content */,
 			);
 			path = FindTheRoots;
 			sourceTree = "<group>";
@@ -76,7 +77,6 @@
 				6F45398229802246000F47C9 /* RootsCalculatorView.swift */,
 				6F453987298024FB000F47C9 /* ResultView.swift */,
 				6F453977298020FB000F47C9 /* Assets.xcassets */,
-				6F453979298020FB000F47C9 /* Preview Content */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -304,7 +304,6 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = JackD.FindTheRoots;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -333,7 +332,6 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = JackD.FindTheRoots;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
